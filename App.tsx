@@ -23,4 +23,8 @@ export default function App() {
    git branch -M main
    git push -u origin main   
 
+   git add .
+   git commit -m "inicial"
+   git push
+
 */
