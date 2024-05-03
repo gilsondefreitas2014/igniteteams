@@ -13,9 +13,14 @@ Blank (TypeScript)
 
 ## 2. Comandos do git hub para sincroniar o projeto
    git remote add origin https://github.com/gilsondefreitas2014/igniteteams.git
+
    git branch -M main
+   
    git push -u origin main   
 
+
    git add .
+
    git commit -m "inicial"
+
    git push
