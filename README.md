@@ -29,3 +29,15 @@ git push
 Executar o comando: npm install styled-components
 Caso não dê certo, olhe as mensagens dos erros relatando para usar "--force" no fim do comando, desta forma: npm install styled-components --force
 
+### 3.1 Instalar a extensão vscode-styled-components
+clicar no botão extensões e instalar styled components (ícone unhas com esmalte)
+
+### 3.2 Configurando o Tema
+No arquivo App.tsx, importar o ThemeProvider
+Criar arquivo index.ts em: src\theme
+Criar arquivo styled.d.ts em: src\@types
+
+### 3.3 Configurando fontes do Expo
+Executar o comando: npx expo install expo-font @expo-google-fonts/roboto
+
+No arquivo App.tsx: import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
