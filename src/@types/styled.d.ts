@@ -1,9 +1,9 @@
 import "styled-components/native";
 
-import theme from "../theme";
+import themeLight from "..src/themeLight";
 
 declare module "styled-components" {
-  type ThemeType = typeof theme
+  type ThemeType = typeof themeLight
 
   export interface DefaultTheme extends ThemeType {}
 }
